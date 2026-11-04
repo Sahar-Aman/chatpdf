@@ -2,7 +2,7 @@
 
 Asistente que responde preguntas sobre documentos propios **citando las fuentes** (RAG) y que puede ejecutar acciones mediante herramientas (function calling), con permisos validados en el backend.
 
-> Proyecto en construcción. Este README se actualiza en cada fase.
+> Proyecto en construcción.
 
 ## Stack
 
@@ -17,16 +17,3 @@ Asistente que responde preguntas sobre documentos propios **citando las fuentes*
 | CI/CD | GitHub Actions |
 | Despliegue | Railway |
 | Tests | pytest (backend), Vitest (frontend) |
-
-## Estado
-
-- [ ] Semana 1 — Esqueleto, CI, despliegue
-- [ ] Semana 2 — Documentos, troceado, cola
-- [ ] Semana 3 — RAG
-- [ ] Semana 4 — Agente con tools y JWT
-- [ ] Semana 5 — Observabilidad y demo
-
-## Configuración local
-
-1. Copia `.env.example` a `.env` y rellena los valores.
-2. _(se completará al añadir docker-compose)_
